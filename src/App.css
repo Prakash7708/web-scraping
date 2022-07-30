@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+
+.navbar{
+  background-color: rgb(40 116 240);
+  /* display: flex;
+ justify-content: center; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .Top {
+  margin: 40px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+  width: 400px;
+ 
+} */
+.bttn{
+  background-color: aliceblue;
+  color:rgb(40 116 240);
+  outline:0px;
+  margin-left: 10px;
+  border: 0px;
+  font-weight: 500;
+}
+span{
+  margin-left: 400px;
+  color: aliceblue;
+  font-weight: 600;
+  font-size: larger;
 }
 
-.App-link {
-  color: #61dafb;
+.search {
+  padding: 6px;
+  font-size: 20px;
+  width: 600px;
+  margin-left: 200px;
+  outline: 0px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left{
+  background-color: rgb(205, 217, 224);
+}
+
+.left-content{
+  margin-left: 9px;
+  margin-top: 5px;
+}
+.left-content p{
+  color: rgb(85, 141, 214);
+}
+.right{
+  background-color: rgb(205, 217, 224);
+}
+
+
+.login {
+  background-color: rgb(40 116 240);
+  max-width: 600px;
+  max-height: 600px;
+  display: grid;
+ justify-content: center;
+ padding: 20px;
+ border-radius: 9px;
+ margin-top: 5px;
+}
+.contain{
+  background-color: rgb(224, 230, 240);
+  display: grid;
+ justify-content: center;
+ height: 100vh;
+
+}
+label{
+  color: aliceblue;
+}
+.login p{
+  color: aliceblue;
+}
+.sign{
+  color: rgb(201, 19, 19);
+}
+.btn-light{
+  color: blue;
+}
+
+.cms:hover{
+  backdrop-filter: blur(5px);
+        box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+        border:1px solid rgba(255, 255, 255, 0.5);
+        border-right:1px solid rgba(255, 255, 255, 0.2);
+        border-bottom:1px solid rgba(255, 255, 255, 0.2);
+        background: rgba(255,255,255,0.1);
+       padding: 5px;
+}
+.price{
+  text-decoration: line-through;
+  color:red;
+
+}
+.fprice{
+  color: rgb(2, 2, 20);
+  font-weight: 1000;
+  font-size: larger;
 }
